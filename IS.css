@@ -1,0 +1,136 @@
+body {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/02/01/15/20/1000_F_201152010_bEIco0sLTlh1v0zvDouLC1H5aCM1bBB3.jpg');
+    background-repeat:repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid #4CAF50;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-top: 250px;
+}
+
+.container h1 {
+    margin-bottom: 10px;
+}
+
+.container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for password-container */
+.password-container {
+    display: none; /* Hide the container initially */
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid #4CAF50;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-top: 250px;
+}
+
+.password-container h1 {
+    margin-bottom: 10px;
+}
+
+.password-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.password-container button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional styles for private-key-container */
+.private-key-container {
+    display: none; /* Hide the container initially */
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid #4CAF50;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-top: 250px;
+
+}
+
+.private-key-container h1 {
+    margin-bottom: 10px;
+}
+
+.private-key-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.private-key-container button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional styles for device-path-container */
+.device-path-container {
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid #4CAF50;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.device-path-container h1 {
+    margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.device-path-container button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

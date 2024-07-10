@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Step Authentication</title>
+    <link rel="stylesheet" href="IS.css">
+    <!-- Include Socket.IO library without integrity hash -->
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Email-id</h1>
+        <input type="text" id="devicePathInput" placeholder="Enter device path...">
+        <button id="submitDevicePathBtn">Submit Email</button>
+        <div id="device-path-timerContainer"></div>
+    </div>
+
+    <div class="password-container" style="display: none;">
+        <h1>Enter Password</h1>
+        <input type="password" id="passwordInput" placeholder="Enter password...">
+        <button id="submitPasswordBtn">Submit Password</button>
+        <div id="password-timerContainer"></div>
+    </div>
+
+    <div class="private-key-container" style="display: none;">
+        <h1>Enter Private Key</h1>
+        <input type="text" id="privateKeyInput" placeholder="Enter private key...">
+        <button id="submitPrivateKeyBtn">Access Secret Image</button>
+        <div id="secretImageContainer"></div>
+        <div id="private-key-timerContainer"></div>
+        <div id="privateKeyDisplay">Private key: </div>
+    </div>
+
+    <div id="timerContainer"></div>
+
+    <!-- Include your client-side JavaScript file at the end -->
+    <script src="client.js"></script>
+</body>
+</html>
